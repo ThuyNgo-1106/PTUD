@@ -1,0 +1,22 @@
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\bin\Debug\QL thư viện.exe
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.csproj.CopyComplete
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.exe
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Loaisach.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\UD Quản lý thư viện\QL thư viện\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
