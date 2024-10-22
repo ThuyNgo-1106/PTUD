@@ -58,6 +58,12 @@
     <Compile Include="All user control\Chude.Designer.cs">
       <DependentUpon>Chude.cs</DependentUpon>
     </Compile>
+    <Compile Include="All user control\Phieuphat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All user control\Phieuphat.Designer.cs">
+      <DependentUpon>Phieuphat.cs</DependentUpon>
+    </Compile>
     <Compile Include="All user control\theloai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +82,11 @@
     <Compile Include="All user control\Phieumuon.Designer.cs">
       <DependentUpon>Phieumuon.cs</DependentUpon>
     </Compile>
-    <Compile Include="All user control\Quản lý sách.cs">
+    <Compile Include="All user control\UCquanlysach.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="All user control\Quản lý sách.Designer.cs">
-      <DependentUpon>Quản lý sách.cs</DependentUpon>
+    <Compile Include="All user control\UCquanlysach.Designer.cs">
+      <DependentUpon>UCquanlysach.cs</DependentUpon>
     </Compile>
     <Compile Include="All user control\Themsach.cs">
       <SubType>Form</SubType>
@@ -112,6 +118,18 @@
     <Compile Include="All user control\UCthongke.Designer.cs">
       <DependentUpon>UCthongke.cs</DependentUpon>
     </Compile>
+    <Compile Include="form xac nhan\xacnhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form xac nhan\xacnhan.Designer.cs">
+      <DependentUpon>xacnhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form xac nhan\xóa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form xac nhan\xóa.Designer.cs">
+      <DependentUpon>xóa.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTrangchu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +141,9 @@
     <EmbeddedResource Include="All user control\Chude.resx">
       <DependentUpon>Chude.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="All user control\Phieuphat.resx">
+      <DependentUpon>Phieuphat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="All user control\theloai.resx">
       <DependentUpon>theloai.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,8 +153,8 @@
     <EmbeddedResource Include="All user control\Phieumuon.resx">
       <DependentUpon>Phieumuon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="All user control\Quản lý sách.resx">
-      <DependentUpon>Quản lý sách.cs</DependentUpon>
+    <EmbeddedResource Include="All user control\UCquanlysach.resx">
+      <DependentUpon>UCquanlysach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="All user control\Themsach.resx">
       <DependentUpon>Themsach.cs</DependentUpon>
@@ -149,6 +170,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="All user control\UCthongke.resx">
       <DependentUpon>UCthongke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form xac nhan\xacnhan.resx">
+      <DependentUpon>xacnhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form xac nhan\xóa.resx">
+      <DependentUpon>xóa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTrangchu.resx">
       <DependentUpon>frmTrangchu.cs</DependentUpon>

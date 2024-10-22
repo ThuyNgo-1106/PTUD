@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QL_thư_viện.All_user_control
+namespace QL_thư_viện.form_xac_nhan
 {
-    public partial class theloai : Form
+    public partial class xóa : Form
     {
-        public theloai()
+        public xóa()
         {
             InitializeComponent();
         }

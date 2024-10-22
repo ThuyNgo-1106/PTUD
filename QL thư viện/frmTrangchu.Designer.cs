@@ -32,12 +32,11 @@ namespace QL_thư_viện
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTrangchu));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.quanlydocgia = new Guna.UI2.WinForms.Guna2Button();
             this.Quanlysach = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -52,21 +51,31 @@ namespace QL_thư_viện
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uCthongke1 = new QL_thư_viện.All_user_control.UCthongke();
+            this.uC_trangchu1 = new QL_thư_viện.All_user_control.UC_trangchu();
+            this.uCquanlymuontra1 = new QL_thư_viện.All_user_control.UCquanlymuontra();
+            this.uC_quanlydocgia1 = new QL_thư_viện.All_user_control.UC_quanlydocgia();
             this.quản_lý_sách1 = new QL_thư_viện.All_user_control.Quản_lý_sách();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.White;
-            this.guna2Panel1.Controls.Add(this.guna2CheckBox1);
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button7);
             this.guna2Panel1.Controls.Add(this.guna2Button6);
             this.guna2Panel1.Controls.Add(this.guna2Button4);
-            this.guna2Panel1.Controls.Add(this.guna2Button3);
+            this.guna2Panel1.Controls.Add(this.quanlydocgia);
             this.guna2Panel1.Controls.Add(this.Quanlysach);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2ImageButton1);
@@ -75,24 +84,6 @@ namespace QL_thư_viện
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(330, 1426);
             this.guna2Panel1.TabIndex = 0;
-            // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(95, 1390);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(161, 24);
-            this.guna2CheckBox1.TabIndex = 15;
-            this.guna2CheckBox1.Text = "guna2CheckBox1";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.CheckedChanged += new System.EventHandler(this.guna2CheckBox1_CheckedChanged);
             // 
             // guna2Button2
             // 
@@ -110,6 +101,7 @@ namespace QL_thư_viện
             this.guna2Button2.Size = new System.Drawing.Size(304, 60);
             this.guna2Button2.TabIndex = 8;
             this.guna2Button2.Text = "Trang chủ";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // guna2Button7
             // 
@@ -142,7 +134,7 @@ namespace QL_thư_viện
             this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.Location = new System.Drawing.Point(12, 811);
+            this.guna2Button6.Location = new System.Drawing.Point(12, 815);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(304, 60);
             this.guna2Button6.TabIndex = 6;
@@ -166,24 +158,26 @@ namespace QL_thư_viện
             this.guna2Button4.Size = new System.Drawing.Size(304, 60);
             this.guna2Button4.TabIndex = 4;
             this.guna2Button4.Text = "   Quản lý mượn trả";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
-            // guna2Button3
+            // quanlydocgia
             // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.Location = new System.Drawing.Point(12, 505);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(304, 60);
-            this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Text = "Quản lý đọc giả";
+            this.quanlydocgia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.quanlydocgia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.quanlydocgia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.quanlydocgia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.quanlydocgia.FillColor = System.Drawing.Color.White;
+            this.quanlydocgia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quanlydocgia.ForeColor = System.Drawing.Color.DimGray;
+            this.quanlydocgia.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.quanlydocgia.Image = ((System.Drawing.Image)(resources.GetObject("quanlydocgia.Image")));
+            this.quanlydocgia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.quanlydocgia.Location = new System.Drawing.Point(12, 513);
+            this.quanlydocgia.Name = "quanlydocgia";
+            this.quanlydocgia.Size = new System.Drawing.Size(304, 60);
+            this.quanlydocgia.TabIndex = 3;
+            this.quanlydocgia.Text = "Quản lý đọc giả";
+            this.quanlydocgia.Click += new System.EventHandler(this.quanlydocgia_Click);
             // 
             // Quanlysach
             // 
@@ -265,9 +259,9 @@ namespace QL_thư_viện
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(471, 60);
+            this.label1.Size = new System.Drawing.Size(743, 60);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Quản lý thư viện NEU";
+            this.label1.Text = "Thư viện Đại học Kinh tế Quốc dân";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // guna2Button8
@@ -353,11 +347,12 @@ namespace QL_thư_viện
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1738, 223);
+            this.label2.Location = new System.Drawing.Point(14, 149);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 32);
             this.label2.TabIndex = 12;
             this.label2.Text = "Tin tức";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // guna2ComboBox1
             // 
@@ -378,6 +373,60 @@ namespace QL_thư_viện
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(1800, 90);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(447, 1414);
+            this.panel1.TabIndex = 16;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.TargetControl = this;
+            // 
+            // guna2Elipse6
+            // 
+            this.guna2Elipse6.TargetControl = this;
+            // 
+            // uCthongke1
+            // 
+            this.uCthongke1.Location = new System.Drawing.Point(336, 90);
+            this.uCthongke1.Name = "uCthongke1";
+            this.uCthongke1.Size = new System.Drawing.Size(1410, 1310);
+            this.uCthongke1.TabIndex = 20;
+            // 
+            // uC_trangchu1
+            // 
+            this.uC_trangchu1.Location = new System.Drawing.Point(336, 90);
+            this.uC_trangchu1.Name = "uC_trangchu1";
+            this.uC_trangchu1.Size = new System.Drawing.Size(1458, 1398);
+            this.uC_trangchu1.TabIndex = 19;
+            this.uC_trangchu1.Load += new System.EventHandler(this.uC_trangchu1_Load);
+            // 
+            // uCquanlymuontra1
+            // 
+            this.uCquanlymuontra1.Location = new System.Drawing.Point(336, 90);
+            this.uCquanlymuontra1.Name = "uCquanlymuontra1";
+            this.uCquanlymuontra1.Size = new System.Drawing.Size(1410, 1310);
+            this.uCquanlymuontra1.TabIndex = 18;
+            // 
+            // uC_quanlydocgia1
+            // 
+            this.uC_quanlydocgia1.Location = new System.Drawing.Point(336, 90);
+            this.uC_quanlydocgia1.Name = "uC_quanlydocgia1";
+            this.uC_quanlydocgia1.Size = new System.Drawing.Size(1410, 1310);
+            this.uC_quanlydocgia1.TabIndex = 17;
+            // 
             // quản_lý_sách1
             // 
             this.quản_lý_sách1.Location = new System.Drawing.Point(336, 90);
@@ -391,9 +440,13 @@ namespace QL_thư_viện
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2225, 1426);
+            this.Controls.Add(this.uCthongke1);
+            this.Controls.Add(this.uC_trangchu1);
+            this.Controls.Add(this.uCquanlymuontra1);
+            this.Controls.Add(this.uC_quanlydocgia1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.quản_lý_sách1);
             this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2TextBox1);
@@ -405,12 +458,12 @@ namespace QL_thư_viện
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmTrangchu_Load);
             this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -422,7 +475,7 @@ namespace QL_thư_viện
         private Guna.UI2.WinForms.Guna2Button Quanlysach;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button quanlydocgia;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label1;
@@ -436,8 +489,17 @@ namespace QL_thư_viện
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private All_user_control.Quản_lý_sách quản_lý_sách1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private All_user_control.UC_quanlydocgia uC_quanlydocgia1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private All_user_control.UCquanlymuontra uCquanlymuontra1;
+        private All_user_control.UC_trangchu uC_trangchu1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        private All_user_control.UCthongke uCthongke1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
     }
 }
 

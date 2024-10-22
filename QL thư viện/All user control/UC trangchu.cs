@@ -16,5 +16,10 @@ namespace QL_thư_viện.All_user_control
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

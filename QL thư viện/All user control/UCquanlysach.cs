@@ -34,7 +34,8 @@ namespace QL_thư_viện.All_user_control
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            Themsach themsach = new Themsach();
+            themsach.Show();
         }
 
         private void Quản_lý_sách_Load(object sender, EventArgs e)
@@ -44,6 +45,25 @@ namespace QL_thư_viện.All_user_control
 
         private void label3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            theloai theloai = new theloai();
+            theloai.Show();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Chude chude = new Chude();
+            chude.Show();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            NXB nXB = new NXB();
+            nXB.Show();
 
         }
     }

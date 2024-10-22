@@ -37,16 +37,14 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2ComboBox5 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2BorderlessForm2 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -57,6 +55,8 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,6 +111,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button1.Size = new System.Drawing.Size(253, 70);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "Thể loại";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // guna2Button3
             // 
@@ -131,6 +132,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button3.Size = new System.Drawing.Size(260, 70);
             this.guna2Button3.TabIndex = 9;
             this.guna2Button3.Text = "Chủ đề";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button4
             // 
@@ -151,23 +153,47 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button4.Size = new System.Drawing.Size(245, 70);
             this.guna2Button4.TabIndex = 10;
             this.guna2Button4.Text = "NXB";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.guna2ComboBox5);
+            this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.guna2Button6);
             this.panel1.Controls.Add(this.guna2Button5);
             this.panel1.Controls.Add(this.guna2TextBox1);
-            this.panel1.Controls.Add(this.checkBox5);
-            this.panel1.Controls.Add(this.checkBox4);
-            this.panel1.Controls.Add(this.checkBox3);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(95, 265);
+            this.panel1.Location = new System.Drawing.Point(95, 231);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1235, 192);
+            this.panel1.Size = new System.Drawing.Size(1235, 226);
             this.panel1.TabIndex = 11;
+            // 
+            // guna2ComboBox5
+            // 
+            this.guna2ComboBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox5.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox5.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox5.ItemHeight = 30;
+            this.guna2ComboBox5.Location = new System.Drawing.Point(170, 72);
+            this.guna2ComboBox5.Name = "guna2ComboBox5";
+            this.guna2ComboBox5.Size = new System.Drawing.Size(303, 36);
+            this.guna2ComboBox5.TabIndex = 30;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(28, 80);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(113, 28);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "Danh mục:";
             // 
             // guna2Button6
             // 
@@ -182,7 +208,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button6.Location = new System.Drawing.Point(1003, 43);
+            this.guna2Button6.Location = new System.Drawing.Point(1003, 64);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(168, 44);
             this.guna2Button6.TabIndex = 14;
@@ -201,7 +227,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button5.Location = new System.Drawing.Point(1003, 122);
+            this.guna2Button5.Location = new System.Drawing.Point(1003, 160);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(168, 44);
             this.guna2Button5.TabIndex = 13;
@@ -209,6 +235,7 @@ namespace QL_thư_viện.All_user_control
             // 
             // guna2TextBox1
             // 
+            this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox1.BorderRadius = 20;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
@@ -221,69 +248,14 @@ namespace QL_thư_viện.All_user_control
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
             this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(15, 15);
-            this.guna2TextBox1.Location = new System.Drawing.Point(47, 106);
+            this.guna2TextBox1.Location = new System.Drawing.Point(24, 144);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "Tìm kiếm";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(918, 60);
+            this.guna2TextBox1.Size = new System.Drawing.Size(941, 60);
             this.guna2TextBox1.TabIndex = 9;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(867, 61);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(77, 26);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "NXB";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(666, 61);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(91, 26);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "Chủ đề";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(470, 61);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(112, 26);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Loại sách";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(271, 61);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(106, 26);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Tên sách";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(82, 61);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(102, 26);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Mã sách";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -297,11 +269,22 @@ namespace QL_thư_viện.All_user_control
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Location = new System.Drawing.Point(95, 533);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1235, 654);
             this.panel2.TabIndex = 12;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(1229, 648);
+            this.dataGridView1.TabIndex = 39;
             // 
             // guna2BorderlessForm1
             // 
@@ -437,6 +420,8 @@ namespace QL_thư_viện.All_user_control
             this.Load += new System.EventHandler(this.Quản_lý_sách_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -452,8 +437,6 @@ namespace QL_thư_viện.All_user_control
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private System.Windows.Forms.Panel panel2;
@@ -462,13 +445,13 @@ namespace QL_thư_viện.All_user_control
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
