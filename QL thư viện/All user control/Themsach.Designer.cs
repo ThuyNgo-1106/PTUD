@@ -184,7 +184,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(538, 92);
+            this.label8.Location = new System.Drawing.Point(538, 98);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 28);
             this.label8.TabIndex = 31;
@@ -341,7 +341,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(538, 172);
+            this.label7.Location = new System.Drawing.Point(538, 165);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(83, 28);
             this.label7.TabIndex = 19;
@@ -351,7 +351,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(538, 234);
+            this.label6.Location = new System.Drawing.Point(538, 242);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 28);
             this.label6.TabIndex = 18;
@@ -372,7 +372,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 172);
+            this.label4.Location = new System.Drawing.Point(13, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(151, 28);
             this.label4.TabIndex = 16;
@@ -382,7 +382,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 100);
+            this.label3.Location = new System.Drawing.Point(13, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 28);
             this.label3.TabIndex = 15;

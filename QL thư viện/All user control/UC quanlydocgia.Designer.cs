@@ -43,7 +43,6 @@ namespace QL_thư_viện.All_user_control
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -62,6 +61,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.label11 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -82,6 +82,7 @@ namespace QL_thư_viện.All_user_control
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.guna2ComboBox3);
             this.panel2.Controls.Add(this.guna2ComboBox2);
             this.panel2.Controls.Add(this.guna2ComboBox1);
@@ -92,13 +93,12 @@ namespace QL_thư_viện.All_user_control
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.guna2Button1);
             this.panel2.Location = new System.Drawing.Point(91, 107);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1235, 265);
+            this.panel2.Size = new System.Drawing.Size(1235, 271);
             this.panel2.TabIndex = 13;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -163,7 +163,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(1066, 196);
+            this.guna2Button2.Location = new System.Drawing.Point(1072, 201);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(147, 40);
             this.guna2Button2.TabIndex = 15;
@@ -241,7 +241,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(547, 152);
+            this.label7.Location = new System.Drawing.Point(547, 150);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 28);
             this.label7.TabIndex = 19;
@@ -268,22 +268,11 @@ namespace QL_thư_viện.All_user_control
             this.label5.TabIndex = 17;
             this.label5.Text = "Chức vụ:";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 28);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Mã đọc giả:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 152);
+            this.label3.Location = new System.Drawing.Point(28, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 28);
             this.label3.TabIndex = 15;
@@ -325,7 +314,7 @@ namespace QL_thư_viện.All_user_control
             this.panel1.Controls.Add(this.guna2Button4);
             this.panel1.Controls.Add(this.guna2TextBox7);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(91, 392);
+            this.panel1.Location = new System.Drawing.Point(91, 421);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1235, 192);
             this.panel1.TabIndex = 14;
@@ -432,26 +421,26 @@ namespace QL_thư_viện.All_user_control
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Location = new System.Drawing.Point(91, 659);
+            this.panel3.Location = new System.Drawing.Point(91, 704);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1235, 544);
+            this.panel3.Size = new System.Drawing.Size(1235, 499);
             this.panel3.TabIndex = 15;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1219, 538);
+            this.dataGridView1.Size = new System.Drawing.Size(1219, 510);
             this.dataGridView1.TabIndex = 39;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(605, 613);
+            this.label9.Location = new System.Drawing.Point(605, 658);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(223, 32);
             this.label9.TabIndex = 14;
@@ -540,6 +529,16 @@ namespace QL_thư_viện.All_user_control
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(28, 209);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(55, 28);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "SĐT:";
+            // 
             // UC_quanlydocgia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -575,7 +574,6 @@ namespace QL_thư_viện.All_user_control
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
@@ -599,5 +597,6 @@ namespace QL_thư_viện.All_user_control
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private System.Windows.Forms.Label label11;
     }
 }

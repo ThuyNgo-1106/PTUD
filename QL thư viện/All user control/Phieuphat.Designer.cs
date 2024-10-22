@@ -48,12 +48,12 @@ namespace QL_thư_viện.All_user_control
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -97,7 +97,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(46, 204);
+            this.label4.Location = new System.Drawing.Point(46, 201);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 28);
             this.label4.TabIndex = 41;
@@ -107,7 +107,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(46, 267);
+            this.label3.Location = new System.Drawing.Point(46, 260);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 28);
             this.label3.TabIndex = 42;
@@ -159,7 +159,7 @@ namespace QL_thư_viện.All_user_control
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(46, 320);
+            this.label5.Location = new System.Drawing.Point(46, 319);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(193, 28);
             this.label5.TabIndex = 47;
@@ -321,6 +321,16 @@ namespace QL_thư_viện.All_user_control
             this.guna2Panel2.Size = new System.Drawing.Size(1080, 62);
             this.guna2Panel2.TabIndex = 57;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(15, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(54, 56);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 46;
+            this.pictureBox2.TabStop = false;
+            // 
             // guna2Button9
             // 
             this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -400,16 +410,6 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button2.Size = new System.Drawing.Size(100, 40);
             this.guna2Button2.TabIndex = 58;
             this.guna2Button2.Text = "Lưu";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(54, 56);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 46;
-            this.pictureBox2.TabStop = false;
             // 
             // guna2Button4
             // 

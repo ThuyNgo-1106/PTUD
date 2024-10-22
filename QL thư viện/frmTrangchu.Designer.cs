@@ -115,7 +115,7 @@ namespace QL_thư_viện
             this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
             this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.Location = new System.Drawing.Point(12, 714);
+            this.guna2Button7.Location = new System.Drawing.Point(12, 719);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(304, 60);
             this.guna2Button7.TabIndex = 7;
@@ -153,7 +153,7 @@ namespace QL_thư_viện
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(12, 610);
+            this.guna2Button4.Location = new System.Drawing.Point(12, 623);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(304, 60);
             this.guna2Button4.TabIndex = 4;
@@ -172,7 +172,7 @@ namespace QL_thư_viện
             this.quanlydocgia.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.quanlydocgia.Image = ((System.Drawing.Image)(resources.GetObject("quanlydocgia.Image")));
             this.quanlydocgia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.quanlydocgia.Location = new System.Drawing.Point(12, 513);
+            this.quanlydocgia.Location = new System.Drawing.Point(12, 527);
             this.quanlydocgia.Name = "quanlydocgia";
             this.quanlydocgia.Size = new System.Drawing.Size(304, 60);
             this.quanlydocgia.TabIndex = 3;
@@ -191,7 +191,7 @@ namespace QL_thư_viện
             this.Quanlysach.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.Quanlysach.Image = ((System.Drawing.Image)(resources.GetObject("Quanlysach.Image")));
             this.Quanlysach.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.Quanlysach.Location = new System.Drawing.Point(12, 416);
+            this.Quanlysach.Location = new System.Drawing.Point(12, 431);
             this.Quanlysach.Name = "Quanlysach";
             this.Quanlysach.Size = new System.Drawing.Size(304, 60);
             this.Quanlysach.TabIndex = 2;
@@ -210,7 +210,7 @@ namespace QL_thư_viện
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Location = new System.Drawing.Point(12, 330);
+            this.guna2Button1.Location = new System.Drawing.Point(12, 335);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(304, 60);
             this.guna2Button1.TabIndex = 1;
