@@ -33,6 +33,7 @@ namespace QL_thư_viện.All_user_control
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_quanlydocgia));
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -61,7 +62,6 @@ namespace QL_thư_viện.All_user_control
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.label11 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -101,6 +101,16 @@ namespace QL_thư_viện.All_user_control
             this.panel2.Size = new System.Drawing.Size(1235, 271);
             this.panel2.TabIndex = 13;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(28, 209);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(55, 28);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "SĐT:";
             // 
             // guna2ComboBox3
             // 
@@ -334,6 +344,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2ComboBox5.Name = "guna2ComboBox5";
             this.guna2ComboBox5.Size = new System.Drawing.Size(373, 36);
             this.guna2ComboBox5.TabIndex = 31;
+            this.guna2ComboBox5.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox5_SelectedIndexChanged);
             // 
             // label10
             // 
@@ -528,16 +539,6 @@ namespace QL_thư_viện.All_user_control
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(28, 209);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 28);
-            this.label11.TabIndex = 29;
-            this.label11.Text = "SĐT:";
             // 
             // UC_quanlydocgia
             // 

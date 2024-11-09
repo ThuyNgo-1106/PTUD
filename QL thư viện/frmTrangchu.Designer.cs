@@ -54,7 +54,6 @@ namespace QL_thư_viện
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uCthongke1 = new QL_thư_viện.All_user_control.UCthongke();
@@ -62,6 +61,7 @@ namespace QL_thư_viện
             this.uCquanlymuontra1 = new QL_thư_viện.All_user_control.UCquanlymuontra();
             this.uC_quanlydocgia1 = new QL_thư_viện.All_user_control.UC_quanlydocgia();
             this.quản_lý_sách1 = new QL_thư_viện.All_user_control.Quản_lý_sách();
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -84,6 +84,7 @@ namespace QL_thư_viện
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(330, 1426);
             this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // guna2Button2
             // 
@@ -138,7 +139,7 @@ namespace QL_thư_viện
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(304, 60);
             this.guna2Button6.TabIndex = 6;
-            this.guna2Button6.Text = "Hỗ trợ";
+            this.guna2Button6.Text = "Quy định";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button4
@@ -386,10 +387,6 @@ namespace QL_thư_viện
             // 
             this.guna2Elipse3.TargetControl = this;
             // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this;
-            // 
             // guna2Elipse5
             // 
             this.guna2Elipse5.TargetControl = this;
@@ -402,8 +399,9 @@ namespace QL_thư_viện
             // 
             this.uCthongke1.Location = new System.Drawing.Point(336, 90);
             this.uCthongke1.Name = "uCthongke1";
-            this.uCthongke1.Size = new System.Drawing.Size(1410, 1310);
+            this.uCthongke1.Size = new System.Drawing.Size(1458, 1310);
             this.uCthongke1.TabIndex = 20;
+            this.uCthongke1.Load += new System.EventHandler(this.uCthongke1_Load);
             // 
             // uC_trangchu1
             // 
@@ -417,23 +415,27 @@ namespace QL_thư_viện
             // 
             this.uCquanlymuontra1.Location = new System.Drawing.Point(336, 90);
             this.uCquanlymuontra1.Name = "uCquanlymuontra1";
-            this.uCquanlymuontra1.Size = new System.Drawing.Size(1410, 1310);
+            this.uCquanlymuontra1.Size = new System.Drawing.Size(1458, 1310);
             this.uCquanlymuontra1.TabIndex = 18;
             // 
             // uC_quanlydocgia1
             // 
             this.uC_quanlydocgia1.Location = new System.Drawing.Point(336, 90);
             this.uC_quanlydocgia1.Name = "uC_quanlydocgia1";
-            this.uC_quanlydocgia1.Size = new System.Drawing.Size(1410, 1310);
+            this.uC_quanlydocgia1.Size = new System.Drawing.Size(1458, 1310);
             this.uC_quanlydocgia1.TabIndex = 17;
             // 
             // quản_lý_sách1
             // 
             this.quản_lý_sách1.Location = new System.Drawing.Point(336, 90);
             this.quản_lý_sách1.Name = "quản_lý_sách1";
-            this.quản_lý_sách1.Size = new System.Drawing.Size(1410, 1310);
+            this.quản_lý_sách1.Size = new System.Drawing.Size(1458, 1310);
             this.quản_lý_sách1.TabIndex = 14;
             this.quản_lý_sách1.Load += new System.EventHandler(this.quản_lý_sách1_Load);
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this;
             // 
             // frmTrangchu
             // 
@@ -494,12 +496,12 @@ namespace QL_thư_viện
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private All_user_control.UC_quanlydocgia uC_quanlydocgia1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private All_user_control.UCquanlymuontra uCquanlymuontra1;
         private All_user_control.UC_trangchu uC_trangchu1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
         private All_user_control.UCthongke uCthongke1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
     }
 }
 

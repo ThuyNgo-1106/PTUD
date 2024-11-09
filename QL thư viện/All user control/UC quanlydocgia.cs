@@ -61,5 +61,10 @@ namespace QL_thư_viện.All_user_control
         {
 
         }
+
+        private void guna2ComboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

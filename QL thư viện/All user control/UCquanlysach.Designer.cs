@@ -416,7 +416,7 @@ namespace QL_thư_viện.All_user_control
             this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2Button2);
             this.Name = "Quản_lý_sách";
-            this.Size = new System.Drawing.Size(1410, 1310);
+            this.Size = new System.Drawing.Size(1412, 1310);
             this.Load += new System.EventHandler(this.Quản_lý_sách_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

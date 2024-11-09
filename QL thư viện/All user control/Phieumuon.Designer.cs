@@ -113,7 +113,7 @@ namespace QL_thư_viện.All_user_control
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 28);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Mã đọc giả:";
+            this.label4.Text = "Mã độc giả:";
             // 
             // label3
             // 
@@ -152,7 +152,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2Panel1.Controls.Add(this.dataGridView1);
             this.guna2Panel1.Location = new System.Drawing.Point(45, 495);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1000, 190);
+            this.guna2Panel1.Size = new System.Drawing.Size(1000, 266);
             this.guna2Panel1.TabIndex = 35;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
@@ -163,7 +163,7 @@ namespace QL_thư_viện.All_user_control
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(997, 187);
+            this.dataGridView1.Size = new System.Drawing.Size(997, 265);
             this.dataGridView1.TabIndex = 34;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -238,7 +238,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(181, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(342, 36);
             this.guna2TextBox1.TabIndex = 41;
             // 
             // guna2TextBox2
@@ -260,7 +260,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(181, 36);
+            this.guna2TextBox2.Size = new System.Drawing.Size(342, 36);
             this.guna2TextBox2.TabIndex = 42;
             // 
             // guna2TextBox3
@@ -298,7 +298,7 @@ namespace QL_thư_viện.All_user_control
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Location = new System.Drawing.Point(215, 363);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(227, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(342, 36);
             this.guna2ComboBox1.TabIndex = 27;
             // 
             // guna2ComboBox2
@@ -501,6 +501,7 @@ namespace QL_thư_viện.All_user_control
             this.Name = "Phieumuon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phieumuon";
+            this.Load += new System.EventHandler(this.Phieumuon_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

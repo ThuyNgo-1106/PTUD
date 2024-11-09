@@ -136,9 +136,10 @@ namespace QL_thư_viện.All_user_control
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(150, 820);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(492, 32);
+            this.label3.Size = new System.Drawing.Size(473, 32);
             this.label3.TabIndex = 18;
-            this.label3.Text = "Báo cáo danh strảch phiếu mượn chưa trả";
+            this.label3.Text = "Báo cáo danh sách phiếu mượn chưa trả";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -156,7 +157,7 @@ namespace QL_thư_viện.All_user_control
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(904, 834);
+            this.label5.Location = new System.Drawing.Point(893, 831);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(326, 32);
             this.label5.TabIndex = 20;

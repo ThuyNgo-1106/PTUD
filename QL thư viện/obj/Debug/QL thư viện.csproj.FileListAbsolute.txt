@@ -70,3 +70,48 @@ D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.csproj.CopyComplete
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.exe
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.exe
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.exe
+D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\QLthuvien\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.CopyComplete
+D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.Login.login.resources
+D:\QLthuvien\QL thư viện\bin\Debug\AxShockwaveFlashObjects.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.Shared.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\QLthuvien\QL thư viện\bin\Debug\ShockwaveFlashObjects.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\QLthuvien\QL thư viện\bin\Debug\stdole.dll
+D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
