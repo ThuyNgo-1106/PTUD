@@ -82,8 +82,6 @@ D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlyd
 D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
 D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
 D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
 D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
 D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
 D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache

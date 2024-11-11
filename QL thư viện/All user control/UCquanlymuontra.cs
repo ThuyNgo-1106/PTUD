@@ -65,8 +65,10 @@ namespace QL_thư_viện.All_user_control
         }
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            sql = "Select Ma_Phieu_Muon,Ma_Doc_Gia,Ma_Kieu_Muon,Ngay_Muon,Han_Tra,Ngay_Thuc_Tra,Ma_Thu_Thu from PhieuMuon order by Ma_Phieu_Muon"
-            +"where" + comtentruong.Text + "='" + comgt.Text + "'";
+            sql = "SELECT Ma_Phieu_Muon, Ma_Doc_Gia, Ma_Kieu_Muon, Ngay_Muon, Han_Tra, Ngay_Thuc_Tra, Ma_Thu_Thu " +
+             "FROM PhieuMuon " +
+             "WHERE " + comtentruong.Text + " = '" + comgt.Text + "' " +
+             "ORDER BY Ma_Phieu_Muon";
             da = new SqlDataAdapter(sql, conn);
             dt.Clear();
             da.Fill(dt);
@@ -111,6 +113,13 @@ namespace QL_thư_viện.All_user_control
             grddata.Refresh();
             NapCT();
             comtentruong.Text = "Ma_Phieu_Muon";
+            txtmaphieu.ReadOnly = true;
+            txtmadocgia.ReadOnly = true;
+            txtthuthu.ReadOnly = true;
+            cbmakieumuon.Enabled = false;
+            datengaymuon.Enabled = false;
+            datehantra.Enabled = false;
+            datethuctra.Enabled = false;
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
@@ -130,13 +139,26 @@ namespace QL_thư_viện.All_user_control
 
         private void btnupdate_Click(object sender, EventArgs e)
         {
-            sql = "insert into PhieuMuon(Ma_Phieu_Muon,Ma_Doc_Gia,Ma_Kieu_Muon,Ngay_Muon,Han_Tra,Ngay_Thuc_Tra,Ma_Thu_Thu)"
-                + " Values('" + txtmaphieu.Text + "','" + txtmadocgia.Text + "','"
-                + cbmakieumuon.Text + "','" + datengaymuon.Text + "','" + datehantra.Text + "','"
-               + datengaymuon.Text + "','" + cbmathuthu.Text + "')";
-            cmd = new SqlCommand(sql, conn);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("Đã cập nhật thành công!");
+            txtmaphieu.ReadOnly = false;
+            txtmadocgia.ReadOnly = false;
+            txtthuthu.ReadOnly = false;
+            cbmakieumuon.Enabled = true;
+            datengaymuon.Enabled = true;
+            datehantra.Enabled = true;
+
+            datethuctra.Enabled = true;
+            string maPhieuMuon = txtmaphieu.Text;
+            bool isDuplicate = false;
+
+            
+                sql = "insert into PhieuMuon(Ma_Phieu_Muon,Ma_Doc_Gia,Ma_Kieu_Muon,Ngay_Muon,Ngay_Thuc_Tra,Ma_Thu_Thu)"
+                    + " Values('" + txtmaphieu.Text + "','" + txtmadocgia.Text + "','"
+                    + cbmakieumuon.Text + "','" + datengaymuon.Text + "','"
+                   + datengaymuon.Text + "','" + txtthuthu.Text + "')";
+                cmd = new SqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Đã cập nhật thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
         }
 
         private void btnaddnew_Click(object sender, EventArgs e)
@@ -144,7 +166,7 @@ namespace QL_thư_viện.All_user_control
             txtmaphieu.Text = "";
             txtmadocgia.Text = "";
             cbmakieumuon.Text = "";
-            cbmathuthu.Text = "";
+            txtthuthu.Text = "";
             datehantra.Text = "";
             datengaymuon.Text = "";
             datethuctra.Text = "";
@@ -173,12 +195,12 @@ namespace QL_thư_viện.All_user_control
 
         }
 
-        private void btndelete_Click(object sender, EventArgs e)
+        private void btndelete_Click(object sender, EventArgs e) 
         {
             if (MessageBox.Show("Bạn có chắc chắn muốn xóa bản ghi hiện thời?", "Xác nhận"
-                , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) ;
+                , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) 
             {
-                sql = "Delete from PhieuMuon where Ma_Phieu_Muon='" + txtmaphieu + "'";
+                sql = "Delete from PhieuMuon where Ma_Phieu_Muon='" + txtmaphieu.Text + "'";
                 cmd = new SqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();
                 NapLai();
@@ -195,8 +217,25 @@ namespace QL_thư_viện.All_user_control
             datengaymuon.Text = grddata.Rows[i].Cells["Ngay_Muon"].Value.ToString();
             datehantra.Text = grddata.Rows[i].Cells["Han_Tra"].Value.ToString();
             datethuctra.Text = grddata.Rows[i].Cells["Ngay_Thuc_Tra"].Value.ToString();
-            cbmathuthu.Text = grddata.Rows[i].Cells["Ma_Thu_Thu"].Value.ToString();
+            txtthuthu.Text = grddata.Rows[i].Cells["Ma_Thu_Thu"].Value.ToString();
         }
+
+        private void datethuctra_ValueChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            txtmaphieu.ReadOnly = false;
+            txtmadocgia.ReadOnly = false;
+            txtthuthu.ReadOnly = false;
+            cbmakieumuon.Enabled = true;
+            datengaymuon.Enabled = true;
+            datehantra.Enabled = true;
+            datethuctra.Enabled = true;
+        }
+
         public void NapLai()
         {
             sql = "Select Ma_Phieu_Muon,Ma_Doc_Gia,Ma_Kieu_Muon,Ngay_Muon,Han_Tra,Ngay_Thuc_Tra,Ma_Thu_Thu from PhieuMuon order by Ma_Phieu_Muon";

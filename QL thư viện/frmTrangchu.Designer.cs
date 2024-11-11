@@ -32,12 +32,12 @@ namespace QL_thư_viện
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTrangchu));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.btntrangchu = new Guna.UI2.WinForms.Guna2Button();
+            this.btnthongke = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.quanlydocgia = new Guna.UI2.WinForms.Guna2Button();
-            this.Quanlysach = new Guna.UI2.WinForms.Guna2Button();
+            this.btnmuontra = new Guna.UI2.WinForms.Guna2Button();
+            this.btndocgia = new Guna.UI2.WinForms.Guna2Button();
+            this.btnsach = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -56,12 +56,12 @@ namespace QL_thư_viện
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uCthongke1 = new QL_thư_viện.All_user_control.UCthongke();
             this.uC_trangchu1 = new QL_thư_viện.All_user_control.UC_trangchu();
             this.uCquanlymuontra1 = new QL_thư_viện.All_user_control.UCquanlymuontra();
             this.uC_quanlydocgia1 = new QL_thư_viện.All_user_control.UC_quanlydocgia();
             this.quản_lý_sách1 = new QL_thư_viện.All_user_control.Quản_lý_sách();
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -71,12 +71,12 @@ namespace QL_thư_viện
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.White;
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.guna2Button7);
+            this.guna2Panel1.Controls.Add(this.btntrangchu);
+            this.guna2Panel1.Controls.Add(this.btnthongke);
             this.guna2Panel1.Controls.Add(this.guna2Button6);
-            this.guna2Panel1.Controls.Add(this.guna2Button4);
-            this.guna2Panel1.Controls.Add(this.quanlydocgia);
-            this.guna2Panel1.Controls.Add(this.Quanlysach);
+            this.guna2Panel1.Controls.Add(this.btnmuontra);
+            this.guna2Panel1.Controls.Add(this.btndocgia);
+            this.guna2Panel1.Controls.Add(this.btnsach);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2ImageButton1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -86,45 +86,48 @@ namespace QL_thư_viện
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // guna2Button2
+            // btntrangchu
             // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.Location = new System.Drawing.Point(12, 239);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(304, 60);
-            this.guna2Button2.TabIndex = 8;
-            this.guna2Button2.Text = "Trang chủ";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
+            this.btntrangchu.BorderRadius = 10;
+            this.btntrangchu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btntrangchu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btntrangchu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btntrangchu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btntrangchu.FillColor = System.Drawing.Color.White;
+            this.btntrangchu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntrangchu.ForeColor = System.Drawing.Color.Black;
+            this.btntrangchu.HoverState.FillColor = System.Drawing.Color.Gray;
+            this.btntrangchu.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btntrangchu.Location = new System.Drawing.Point(12, 239);
+            this.btntrangchu.Name = "btntrangchu";
+            this.btntrangchu.Size = new System.Drawing.Size(304, 60);
+            this.btntrangchu.TabIndex = 8;
+            this.btntrangchu.Text = "Trang chủ";
+            this.btntrangchu.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
-            // guna2Button7
+            // btnthongke
             // 
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.White;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.Location = new System.Drawing.Point(12, 719);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(304, 60);
-            this.guna2Button7.TabIndex = 7;
-            this.guna2Button7.Text = "Thống kê";
-            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            this.btnthongke.BorderRadius = 10;
+            this.btnthongke.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnthongke.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnthongke.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnthongke.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnthongke.FillColor = System.Drawing.Color.White;
+            this.btnthongke.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnthongke.ForeColor = System.Drawing.Color.DimGray;
+            this.btnthongke.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.btnthongke.Image = ((System.Drawing.Image)(resources.GetObject("btnthongke.Image")));
+            this.btnthongke.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnthongke.Location = new System.Drawing.Point(12, 719);
+            this.btnthongke.Name = "btnthongke";
+            this.btnthongke.Size = new System.Drawing.Size(304, 60);
+            this.btnthongke.TabIndex = 7;
+            this.btnthongke.Text = "Thống kê";
+            this.btnthongke.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 
+            this.guna2Button6.BorderRadius = 10;
             this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -142,62 +145,65 @@ namespace QL_thư_viện
             this.guna2Button6.Text = "Quy định";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
-            // guna2Button4
+            // btnmuontra
             // 
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(12, 623);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(304, 60);
-            this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "   Quản lý mượn trả";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            this.btnmuontra.BorderRadius = 10;
+            this.btnmuontra.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnmuontra.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnmuontra.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnmuontra.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnmuontra.FillColor = System.Drawing.Color.White;
+            this.btnmuontra.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmuontra.ForeColor = System.Drawing.Color.DimGray;
+            this.btnmuontra.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.btnmuontra.Image = ((System.Drawing.Image)(resources.GetObject("btnmuontra.Image")));
+            this.btnmuontra.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnmuontra.Location = new System.Drawing.Point(12, 623);
+            this.btnmuontra.Name = "btnmuontra";
+            this.btnmuontra.Size = new System.Drawing.Size(304, 60);
+            this.btnmuontra.TabIndex = 4;
+            this.btnmuontra.Text = "   Quản lý mượn trả";
+            this.btnmuontra.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
-            // quanlydocgia
+            // btndocgia
             // 
-            this.quanlydocgia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.quanlydocgia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.quanlydocgia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.quanlydocgia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.quanlydocgia.FillColor = System.Drawing.Color.White;
-            this.quanlydocgia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quanlydocgia.ForeColor = System.Drawing.Color.DimGray;
-            this.quanlydocgia.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.quanlydocgia.Image = ((System.Drawing.Image)(resources.GetObject("quanlydocgia.Image")));
-            this.quanlydocgia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.quanlydocgia.Location = new System.Drawing.Point(12, 527);
-            this.quanlydocgia.Name = "quanlydocgia";
-            this.quanlydocgia.Size = new System.Drawing.Size(304, 60);
-            this.quanlydocgia.TabIndex = 3;
-            this.quanlydocgia.Text = "Quản lý đọc giả";
-            this.quanlydocgia.Click += new System.EventHandler(this.quanlydocgia_Click);
+            this.btndocgia.BorderRadius = 10;
+            this.btndocgia.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btndocgia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btndocgia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btndocgia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btndocgia.FillColor = System.Drawing.Color.White;
+            this.btndocgia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndocgia.ForeColor = System.Drawing.Color.DimGray;
+            this.btndocgia.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.btndocgia.Image = ((System.Drawing.Image)(resources.GetObject("btndocgia.Image")));
+            this.btndocgia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btndocgia.Location = new System.Drawing.Point(12, 527);
+            this.btndocgia.Name = "btndocgia";
+            this.btndocgia.Size = new System.Drawing.Size(304, 60);
+            this.btndocgia.TabIndex = 3;
+            this.btndocgia.Text = "Quản lý đọc giả";
+            this.btndocgia.Click += new System.EventHandler(this.quanlydocgia_Click);
             // 
-            // Quanlysach
+            // btnsach
             // 
-            this.Quanlysach.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Quanlysach.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Quanlysach.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Quanlysach.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Quanlysach.FillColor = System.Drawing.Color.White;
-            this.Quanlysach.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quanlysach.ForeColor = System.Drawing.Color.DimGray;
-            this.Quanlysach.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.Quanlysach.Image = ((System.Drawing.Image)(resources.GetObject("Quanlysach.Image")));
-            this.Quanlysach.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.Quanlysach.Location = new System.Drawing.Point(12, 431);
-            this.Quanlysach.Name = "Quanlysach";
-            this.Quanlysach.Size = new System.Drawing.Size(304, 60);
-            this.Quanlysach.TabIndex = 2;
-            this.Quanlysach.Text = "Quản lý sách";
-            this.Quanlysach.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.btnsach.BorderRadius = 10;
+            this.btnsach.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnsach.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnsach.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnsach.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnsach.FillColor = System.Drawing.Color.White;
+            this.btnsach.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsach.ForeColor = System.Drawing.Color.DimGray;
+            this.btnsach.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.btnsach.Image = ((System.Drawing.Image)(resources.GetObject("btnsach.Image")));
+            this.btnsach.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnsach.Location = new System.Drawing.Point(12, 431);
+            this.btnsach.Name = "btnsach";
+            this.btnsach.Size = new System.Drawing.Size(304, 60);
+            this.btnsach.TabIndex = 2;
+            this.btnsach.Text = "Quản lý sách";
+            this.btnsach.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -206,6 +212,7 @@ namespace QL_thư_viện
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.guna2Button1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
@@ -224,10 +231,10 @@ namespace QL_thư_viện
             this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(84, 29);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(66, 29);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(161, 152);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(186, 184);
             this.guna2ImageButton1.TabIndex = 0;
             this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
@@ -395,6 +402,10 @@ namespace QL_thư_viện
             // 
             this.guna2Elipse6.TargetControl = this;
             // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this;
+            // 
             // uCthongke1
             // 
             this.uCthongke1.Location = new System.Drawing.Point(336, 90);
@@ -433,10 +444,6 @@ namespace QL_thư_viện
             this.quản_lý_sách1.TabIndex = 14;
             this.quản_lý_sách1.Load += new System.EventHandler(this.quản_lý_sách1_Load);
             // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this;
-            // 
             // frmTrangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -474,11 +481,11 @@ namespace QL_thư_viện
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private Guna.UI2.WinForms.Guna2Button Quanlysach;
+        private Guna.UI2.WinForms.Guna2Button btnsach;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button quanlydocgia;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button btnmuontra;
+        private Guna.UI2.WinForms.Guna2Button btndocgia;
+        private Guna.UI2.WinForms.Guna2Button btnthongke;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
@@ -490,7 +497,7 @@ namespace QL_thư_viện
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private All_user_control.Quản_lý_sách quản_lý_sách1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btntrangchu;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;

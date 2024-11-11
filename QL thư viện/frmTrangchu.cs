@@ -81,12 +81,12 @@ namespace QL_thư_viện
 
         private void frmTrangchu_Load(object sender, EventArgs e)
         {
+            uC_trangchu1.Visible = true;
             quản_lý_sách1.Visible = false;
-            Quanlysach.PerformClick();
-            uC_quanlydocgia1.Visible=false;
-            quanlydocgia.PerformClick();
+            uC_quanlydocgia1.Visible = false;
             uCquanlymuontra1.Visible = false;
-            quanlydocgia.PerformClick();
+            uCthongke1.Visible = false;
+           
         }
 
         private void quản_lý_sách1_Load(object sender, EventArgs e)
