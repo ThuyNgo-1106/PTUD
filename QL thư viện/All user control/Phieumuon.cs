@@ -61,10 +61,5 @@ namespace QL_thư_viện.All_user_control
         {
 
         }
-
-        private void Phieumuon_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

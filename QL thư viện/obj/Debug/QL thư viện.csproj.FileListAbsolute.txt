@@ -70,48 +70,275 @@ D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.csproj.CopyComplete
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.exe
 D:\QL thu vien\QL thư viện\obj\Debug\QL thư viện.pdb
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.exe
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.pdb
-D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.exe.config
-D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.exe
-D:\QLthuvien\QL thư viện\bin\Debug\QL thư viện.pdb
-D:\QLthuvien\QL thư viện\bin\Debug\Guna.UI2.dll
-D:\QLthuvien\QL thư viện\obj\Debug\QL thư viện.csproj.CopyComplete
-D:\QLthuvien\QL thư viện\obj\Debug\QL_thư_viện.Login.login.resources
-D:\QLthuvien\QL thư viện\bin\Debug\AxShockwaveFlashObjects.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportSource.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.Shared.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.Windows.Forms.dll
-D:\QLthuvien\QL thư viện\bin\Debug\ShockwaveFlashObjects.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-D:\QLthuvien\QL thư viện\bin\Debug\stdole.dll
-D:\QLthuvien\QL thư viện\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\My project\QLTV1\PTUD\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV1\PTUD\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV1\PTUD\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV1\PTUD\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV1\PTUD\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV2\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV2\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV2\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV2\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV2\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV2 - Copy\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV2 - Copy\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV2 - Copy\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV2 - Copy\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV2 - Copy\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV2 - Copy - Copy\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV3\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV3\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV3\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV3\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV3\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV3 - Copy (4)\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV3 - Copy (4)\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV3 - Copy (4)\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV3 - Copy (4)\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV4\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV4\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV4\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV4\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV4\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV4\QL thư viện\bin\Debug\CheckComboBox.dll
+D:\My project\QLTV5\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV5\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV5\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV5\QL thư viện\bin\Debug\CheckComboBox.dll
+D:\My project\QLTV5\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV5\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV6\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV6\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV6\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV6\QL thư viện\bin\Debug\CheckComboBox.dll
+D:\My project\QLTV6\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV6\QL thư viện\obj\Debug\QL thư viện.pdb
+D:\My project\QLTV7\QL thư viện\bin\Debug\QL thư viện.exe.config
+D:\My project\QLTV7\QL thư viện\bin\Debug\QL thư viện.exe
+D:\My project\QLTV7\QL thư viện\bin\Debug\QL thư viện.pdb
+D:\My project\QLTV7\QL thư viện\bin\Debug\CheckComboBox.dll
+D:\My project\QLTV7\QL thư viện\bin\Debug\Guna.UI2.dll
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL thư viện.csproj.AssemblyReference.cache
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Chude.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.chitietsach.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieuphat.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.SuaChiTiet.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.theloai.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.NXB.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Phieumuon.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.ThemChiTiet.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Quản_lý_sách.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.Themsach.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_quanlydocgia.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UC_trangchu.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCquanlymuontra.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.All_user_control.UCthongke.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xacnhan.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.form_xac_nhan.xóa.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.frmTrangchu.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL_thư_viện.Properties.Resources.resources
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL thư viện.csproj.GenerateResource.cache
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL thư viện.csproj.CoreCompileInputs.cache
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL th_ v.CDF9DE5E.Up2Date
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL thư viện.exe
+D:\My project\QLTV7\QL thư viện\obj\Debug\QL thư viện.pdb

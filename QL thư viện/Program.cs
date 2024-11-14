@@ -1,9 +1,7 @@
-﻿using QL_thư_viện.Login;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace QL_thư_viện
@@ -18,7 +16,7 @@ namespace QL_thư_viện
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+            Application.Run(new frmTrangchu());
         }
     }
 }

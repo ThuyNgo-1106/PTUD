@@ -31,10 +31,5 @@ namespace QL_thư_viện.All_user_control
         {
 
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

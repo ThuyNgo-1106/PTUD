@@ -125,15 +125,5 @@ namespace QL_thư_viện
         private void uC_trangchu1_Load(object sender, EventArgs e)
         {
         }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void uCthongke1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

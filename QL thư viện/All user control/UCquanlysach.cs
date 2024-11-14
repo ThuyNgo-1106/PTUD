@@ -2,21 +2,62 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static TheArtOfDevHtmlRenderer.Adapters.RGraphicsPath;
 
 namespace QL_thư_viện.All_user_control
 {
     public partial class Quản_lý_sách : UserControl
     {
+        SqlConnection conn = new SqlConnection();
+        SqlDataAdapter da = new SqlDataAdapter();
+        SqlCommand cmd = new SqlCommand();
+        DataTable dt = new DataTable();
+        DataTable comdt = new DataTable();
+        DataView dv;
+        string sql, constr;
+        string strCon = @"Data Source=DESKTOP-9JJTF2A\SQLEXPRESS;Initial Catalog=""QLthuvien (1)"";Integrated Security=True;TrustServerCertificate=True";
+        
         public Quản_lý_sách()
         {
             InitializeComponent();
         }
 
+        private void LoadData()
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(strCon))
+                {
+                    da = new SqlDataAdapter("SELECT Ma_Sach,Ten_Dau_Sach,Nam_Xuat_Ban,Gia_Bia,Ten_NXB,Ten_Kho,Ten_Chu_De,Ten_The_Loai,Ten_Tac_Gia, Ten_Tinh_Trang FROM chitietsach_full ORDER BY Ma_Sach", conn);
+                    dt.Clear();
+                    da.Fill(dt);
+                    dgvSach.DataSource = dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải dữ liệu: " + ex.Message);
+            }
+        }
+
+        // DoSQL
+        void DoSQL(string sql)
+        {
+            using (conn = new SqlConnection(strCon))
+            {
+                conn.Open();
+                cmd = new SqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+            }
+        }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
@@ -40,6 +81,15 @@ namespace QL_thư_viện.All_user_control
 
         private void Quản_lý_sách_Load(object sender, EventArgs e)
         {
+            
+            conn.ConnectionString = strCon;
+            conn.Open();
+            sql = "select Ma_Sach,Ten_Dau_Sach,Nam_Xuat_Ban,Gia_Bia,Ten_NXB,Ten_Kho,Ten_Chu_De,Ten_The_Loai,Ten_Tac_Gia, Ten_Tinh_Trang from chitietsach_full ORDER BY Ma_Sach;";
+            da = new SqlDataAdapter(sql, conn);
+            da.Fill(dt);    
+            dv  = new DataView(dt);
+            dgvSach.DataSource = dv;
+            dgvSach.Refresh();
 
         }
 
@@ -64,6 +114,215 @@ namespace QL_thư_viện.All_user_control
         {
             NXB nXB = new NXB();
             nXB.Show();
+
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
+            if (dgvSach.SelectedRows.Count > 0) // Kiểm tra xem có hàng nào được chọn không
+            {
+                DataGridViewRow selectedRow = dgvSach.SelectedRows[0]; // Lấy hàng được chọn
+
+                // Khởi tạo form chi tiết và truyền dữ liệu
+                chitietsach cts = new chitietsach();
+                cts.LoadBookDetails(selectedRow); // Gọi phương thức để hiển thị chi tiết
+
+                cts.ShowDialog(); // Hiển thị form chi tiết dưới dạng dialog
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một đầu sách để xem chi tiết.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+
+            // Khởi tạo form chi tiết và truyền dữ liệu
+            ThemChiTiet tct = new ThemChiTiet();
+
+            tct.ShowDialog(); // Hiển thị form chi tiết dưới dạng dialog
+
+            LoadData();
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+
+            if (dgvSach.SelectedRows.Count > 0) // Kiểm tra xem có hàng nào được chọn không
+            {
+                DataGridViewRow selectedRow = dgvSach.SelectedRows[0]; // Lấy hàng được chọn
+
+                // Khởi tạo form chi tiết và truyền dữ liệu
+                SuaChiTiet sct = new SuaChiTiet();
+                sct.LoadBookDetails(selectedRow); // Gọi phương thức để hiển thị chi tiết
+
+                sct.ShowDialog(); // Hiển thị form chi tiết dưới dạng dialog
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một đầu sách để Sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            LoadData();
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+
+            if (dgvSach.SelectedRows.Count > 0)
+            {
+                DialogResult rs = MessageBox.Show("Bạn có chắc chắn muốn xóa bản ghi hiện thời?", "Xác nhận yêu cầu",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rs == DialogResult.Yes)
+                {
+                    int i = dgvSach.CurrentRow.Index;
+                    string tMaSach = dgvSach.Rows[i].Cells["Ma_Sach"].Value.ToString();
+                    string sql = $"Delete from Sach where Ma_Sach = '{tMaSach}'";
+                   
+
+                    
+                    DoSQL(sql);
+
+
+                    LoadData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Chua chon ban ghi");
+            }
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            // Lấy từ khóa tìm kiếm từ TextBox hoặc nơi nhập liệu
+            string tuKhoa = txtTimKiem.Text;
+
+            // Chuẩn bị câu lệnh SQL tìm kiếm
+            string sql = "SELECT Ma_Sach,Ten_Dau_Sach,Nam_Xuat_Ban,Gia_Bia,Ten_NXB,Ten_Kho,Ten_Chu_De,Ten_The_Loai,Ten_Tac_Gia, Ten_Tinh_Trang FROM chitietsach_full " +
+                         "WHERE Ten_Dau_Sach LIKE @TuKhoa " +
+                         "   OR Ma_Sach LIKE @TuKhoa " +
+                          "   OR Nam_Xuat_Ban LIKE @TuKhoa " +
+                           "   OR Gia_Bia LIKE @TuKhoa " +
+                            "   OR Ten_Kho LIKE @TuKhoa " +
+                             "   OR Ten_Chu_De LIKE @TuKhoa " +
+                              "   OR Ten_The_Loai LIKE @TuKhoa " +
+                               "   OR Ten_Tac_Gia LIKE @TuKhoa " +
+                                "   OR Ten_NXB LIKE @TuKhoa" +
+                                  "   OR Ten_Tinh_Trang LIKE @TuKhoa "+
+                                  "ORDER BY Ma_Sach"; 
+                                  
+
+            // Tạo và thiết lập kết nối
+            using (SqlConnection conn = new SqlConnection(strCon))
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    // Thêm tham số cho câu lệnh SQL
+                    cmd.Parameters.AddWithValue("@TuKhoa", "%" + tuKhoa + "%");
+
+                    // Sử dụng SqlDataAdapter để lấy dữ liệu
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+
+                    // Mở kết nối và điền dữ liệu vào DataTable
+                    conn.Open();
+                    da.Fill(dt);
+                    conn.Close();
+
+                    // Gán dữ liệu vào DataGridView
+                    dgvSach.DataSource = dt;
+                }
+            }
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+
+        private void comTenTruong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+
+            // Tạo ánh xạ giữa các giá trị hiển thị và tên cột thực tế
+            Dictionary<string, string> mapping = new Dictionary<string, string>
+{
+    { "Tình trạng", "Ten_Tinh_Trang" },
+    { "Tên NXB", "Ten_NXB" },
+    { "Chủ đề", "Ten_Chu_De" },
+    { "Tên tác giả", "Ten_Tac_Gia" },
+    { "Thể loại", "Ten_The_Loai" },
+    { "Kho", "Ten_Kho" }
+};
+
+            // Lấy giá trị từ comTenTruong
+            string cTenTruong = comTenTruong.Text;
+            string tenCotThucTe = mapping[cTenTruong];
+
+           
+
+            sql = $"Select DISTINCT  {tenCotThucTe} From chitietsach_full order by {tenCotThucTe}  ";
+            
+            SqlConnection conn = new SqlConnection(strCon);
+            SqlDataAdapter da = new SqlDataAdapter(sql, conn);
+            DataTable dt = new DataTable();
+            conn.Open();
+            da.Fill(dt);
+            comGT.DataSource = dt;
+            comGT.DisplayMember = tenCotThucTe;
+            comGT.Refresh();
+
+
+        }
+
+        private void btnLoc_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> mapping = new Dictionary<string, string>
+{
+    { "Tình trạng", "Ten_Tinh_Trang" },
+    { "Tên NXB", "Ten_NXB" },
+    { "Chủ đề", "Ten_Chu_De" },
+    { "Tên tác giả", "Ten_Tac_Gia" },
+    { "Thể loại", "Ten_The_Loai" },
+    { "Kho", "Ten_Kho" }
+};
+
+            // Lấy giá trị từ comTenTruong
+            string cTenTruong = comTenTruong.Text;
+            string tenCotThucTe = mapping[cTenTruong];
+
+            string sql = $"SELECT Ma_Sach,Ten_Dau_Sach,Nam_Xuat_Ban,Gia_Bia,Ten_NXB,Ten_Kho,Ten_Chu_De,Ten_The_Loai,Ten_Tac_Gia, Ten_Tinh_Trang FROM [dbo].[chitietsach_full] " +
+                         $"WHERE {tenCotThucTe} = N'{comGT.Text}' " +
+                         $"ORDER BY Ma_Sach";
+
+            SqlConnection conn = new SqlConnection(strCon);
+            SqlDataAdapter da = new SqlDataAdapter(sql, conn);
+            DataTable dt = new DataTable();
+           
+            dt.Clear();
+            da.Fill(dt);
+            conn.Close();
+
+                    // Gán dữ liệu vào DataGridView
+                    dgvSach.DataSource = dt;
+                }
+
+        private void comGT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
